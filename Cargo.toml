@@ -1,0 +1,21 @@
+[package]
+name = "tq-code-generator-core-api"
+version = "0.1.0"
+edition = "2021"
+authors = ["ToolQuarry"]
+description = "The tq-code-generator-core-api is an API that generates random codes using the tq-code-generator-core library."
+license = "MIT"
+license-file = "LICENSE"
+documentation = "https://github.com/toolquarry/tq-code-generator-core-api"
+repository = "https://github.com/toolquarry/tq-code-generator-core-api"
+homepage = "https://github.com/toolquarry/tq-code-generator-core-api"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = "1.27.0"
+serde = { version = "1.0", features = ["derive"] }
+warp = "0.3.4"
+tq-code-generator-core = "0.1.0"
+rustic-logger = "0.1.2"
