@@ -858,9 +858,9 @@ checksum = "b6bc1c9ce2b5135ac7f93c72918fc37feb872bdc6a5533a8b85eb4b86bfdae52"
 
 [[package]]
 name = "tq-code-generator-core"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "67592032434c67ae0fa9dc1cd87656d16a65072074e96d44fec111421addad7b"
+checksum = "cfd482ea60f845ad056aaf8356b97016fbb438b86c346f12cf4f4e49f3e36579"
 dependencies = [
  "rand",
 ]
